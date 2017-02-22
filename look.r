@@ -131,3 +131,9 @@ p <- p + geom_vline(xintercept=max(df$x), colour=b, size=1)
 p <- p + geom_hline(yintercept=0, colour=b, size=1)
 
 print(p)
+
+#png(file="unknownpleasuresinr.png")
+#print(p)
+#dev.off()
+
+
